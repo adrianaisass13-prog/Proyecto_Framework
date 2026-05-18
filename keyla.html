@@ -1,48 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="a.css">
+    <title>Frameworks Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<header>
-    <h1>Página con framework</h1>
-    <a href="index.html">
-    <button>Inicio</button>
-    </a>
-</header>
-<body>
-    
-    <div class="card">
-        <img src="https://i.ytimg.com/vi/H1eEFfAkIik/sddefault.jpg" class="card-img-top" alt="Svelte">
-        <div class="card-body">
-            <h2>Svelte - Compilador sin runtime</h2>
-            <p class="card-text">Framework de desarrollo frontend que funciona principalmente como un compilador, lo que significa que realiza el trabajo pesado de procesar el código cuando construyes la aplicación y no en el navegador del usuario. Sirve para crear interfaces web extremadamente rápidas y eficientes, ya que, al no necesitar un entorno de ejecución (runtime) pesado corriendo en segundo plano, genera archivos finales mucho más pequeños y optimizados.</p>
-        </div>
-    </div>
+<body class="bg-light">
 
-    <div class="card">
-        <img src="https://blog.codedimension.com.br/images/posts/o-que-%C3%A9-angular.jpg" class="card-img-top" alt="Angular">
-        <div class="card-body">
-            <h2>Angular - Framework completo de Google</h2>
-            <p class="card-text">Framework frontend integral, robusto y mantenido por Google, diseñado específicamente para construir aplicaciones web estables de gran escala y nivel empresarial (SPAs). Sirve para centralizar todo el desarrollo en un solo lugar, ya que incluye de forma nativa herramientas para manejar rutas, formularios, peticiones HTTP y el estado de la aplicación, utilizando TypeScript por defecto sin depender de librerías externas.</p>
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="fw-bold">Herramientas de Desarrollo</h1>
+            <p class="lead">Tres tecnologías clave para crear proyectos en la web.</p>
         </div>
-    </div>
+    </header>
 
-    <div class="card">
-        <img src="https://codersfree.nyc3.cdn.digitaloceanspaces.com/posts/conoce-las-6-principales-diferencias-entre-laravel-9-y-laravel-10.jpg" class="card-img-top" alt="Laravel">
-        <div class="card-body">
-            <h2>Laravel - Framework PHP elegante</h2>
-            <p class="card-text">Framework de desarrollo backend basado en PHP que destaca por su sintaxis limpia y elegante bajo la arquitectura MVC (Modelo-Vista-Controlador). Sirve para construir toda la lógica del lado del servidor de una aplicación web, facilitando y automatizando tareas complejas como la gestión de bases de datos, la autenticación de usuarios, la seguridad y el enrutamiento para que el proceso de desarrollo sea más ágil y ordenado.</p>
+    <main class="container my-5">
+        <div class="row">
+            
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Pantalla de programación">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Svelte</h5>
+                        <p class="card-text text-muted">Es un compilador moderno que procesa el código antes de enviarlo al navegador, logrando que las páginas web carguen de forma increíblemente rápida.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Código limpio en laptop">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Angular</h5>
+                        <p class="card-text text-muted">Es una plataforma creada por Google para construir aplicaciones de gran escala, ofreciendo una estructura muy organizada con TypeScript.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Espacio de trabajo informático">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Laravel</h5>
+                        <p class="card-text text-muted">Es un entorno de desarrollo para el lado del servidor basado en PHP, famoso por hacer que bases de datos y rutas sean fáciles de programar.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
+    </main>
+    <footer class="bg-secondary text-white text-center py-4">
+        <div class="container">
+            <p class="mb-1 fw-bold">Keyla Sofía Hernández López</p>
+        </div>
+    </footer>
 
-    </div>
-    
 </body>
-
- <footer>
- <h1>Keyla Sofía Hernández López</h1>
- </footer>   
-
 </html>
