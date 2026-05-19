@@ -1,49 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="a.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Frameworks Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<header>
-    <h1>Bienvenidos a la página con framework</h1>
-    <a href="index.html">
-    <button>Inicio</button>
-    </a>
-</header>
-<body class="text-bg-primary p-3">
-    
-    <div class="card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVZxIIwG6oRRA-RRcAWTZaQ6CRLlZbwUMhJQ&s" class="card-img-top" alt="Svelte">
-        <div class="card-body">
-            <h2>Svelte - Compilador sin runtime</h2>
-            <p class="card-text">Framework de desarrollo frontend que funciona principalmente como un compilador, lo que significa que realiza el trabajo pesado de procesar el código cuando construyes la aplicación y no en el navegador del usuario. Sirve para crear interfaces web extremadamente rápidas y eficientes, ya que, al no necesitar un entorno de ejecución (runtime) pesado corriendo en segundo plano, genera archivos finales mucho más pequeños y optimizados.</p>
-        </div>
-    </div>
+<body class="bg-light">
 
-    <div class="card">
-        <img src="https://blog.codedimension.com.br/images/posts/o-que-%C3%A9-angular.jpg" class="card-img-top" alt="Angular">
-        <div class="card-body">
-            <h2>Angular - Framework completo de Google</h2>
-            <p class="card-text">Framework frontend integral, robusto y mantenido por Google, diseñado específicamente para construir aplicaciones web estables de gran escala y nivel empresarial (SPAs). Sirve para centralizar todo el desarrollo en un solo lugar, ya que incluye de forma nativa herramientas para manejar rutas, formularios, peticiones HTTP y el estado de la aplicación, utilizando TypeScript por defecto sin depender de librerías externas.</p>
+    <header class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="fw-bold">Herramientas de Desarrollo</h1>
+            <p class="lead">Tres tecnologías clave para crear proyectos en la web.</p>
         </div>
-    </div>
+        <a href="index.html" class="text-decoration-none">
+                <button class="btn btn-outline-dark btn-lg px-4 py-2 shadow bg-white">Inicio</button>
+            </a>
+    </header>
 
-    <div class="card">
-        <img src="https://codersfree.nyc3.cdn.digitaloceanspaces.com/posts/conoce-las-6-principales-diferencias-entre-laravel-9-y-laravel-10.jpg" class="card-img-top" alt="Laravel">
-        <div class="card-body">
-            <h2>Laravel - Framework PHP elegante</h2>
-            <p class="card-text">Framework de desarrollo backend basado en PHP que destaca por su sintaxis limpia y elegante bajo la arquitectura MVC (Modelo-Vista-Controlador). Sirve para construir toda la lógica del lado del servidor de una aplicación web, facilitando y automatizando tareas complejas como la gestión de bases de datos, la autenticación de usuarios, la seguridad y el enrutamiento para que el proceso de desarrollo sea más ágil y ordenado.</p>
+    <main class="container my-5">
+        <div class="row">
+            
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVZxIIwG6oRRA-RRcAWTZaQ6CRLlZbwUMhJQ&s" class="card-img-top" alt="Pantalla de programación">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Svelte - Compilador sin runtime</h5>
+                        <p class="card-text text-muted">Framework de desarrollo frontend que funciona principalmente como un compilador, lo que significa que realiza el trabajo pesado de procesar el código cuando construyes la aplicación y no en el navegador del usuario. Sirve para crear interfaces web extremadamente rápidas y eficientes, ya que, al no necesitar un entorno de ejecución (runtime) pesado corriendo en segundo plano, genera archivos finales mucho más pequeños y optimizados.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTeNhddUQInfcuwztyqws-yWCaGB-y1gzJmg&s" class="card-img-top" alt="Código limpio en laptop">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Angular - Framework completo de Google</h5>
+                        <p class="card-text text-muted">Framework frontend integral, robusto y mantenido por Google, diseñado específicamente para construir aplicaciones web estables de gran escala y nivel empresarial (SPAs). Sirve para centralizar todo el desarrollo en un solo lugar, ya que incluye de forma nativa herramientas para manejar rutas, formularios, peticiones HTTP y el estado de la aplicación, utilizando TypeScript por defecto sin depender de librerías externas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <img src="https://codersfree.nyc3.cdn.digitaloceanspaces.com/posts/laravel-que-es-y-por-que-deberias-aprenderlo.jpg" class="card-img-top" alt="Espacio de trabajo informático">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Laravel - Framework PHP elegante</h5>
+                        <p class="card-text text-muted">Framework de desarrollo backend basado en PHP que destaca por su sintaxis limpia y elegante bajo la arquitectura MVC (Modelo-Vista-Controlador). Sirve para construir toda la lógica del lado del servidor de una aplicación web, facilitando y automatizando tareas complejas como la gestión de bases de datos, la autenticación de usuarios, la seguridad y el enrutamiento para que el proceso de desarrollo sea más ágil y ordenado.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
+    </main>
 
-    </div>
-    
+    <footer class="bg-secondary text-white text-center py-4">
+        <div class="container">
+            <p class="mb-1 fw-bold">Adriana Isabella Salazar Soria</p>
+        </div>
+    </footer>
+
 </body>
-
- <footer>
- <h1>Adriana Isabella Salazar Soria</h1>
- </footer>   
-
 </html>
